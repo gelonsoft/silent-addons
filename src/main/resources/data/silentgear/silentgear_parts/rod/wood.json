@@ -1,0 +1,36 @@
+{
+    "type": "silentgear:rod",
+    "stats": [
+        {"name": "durability",      "value":  0.0, "op": "MUL2"},
+        {"name": "enchantability",  "value":  0.1, "op": "MUL2"},
+        {"name": "harvest_level",   "value":    0, "op": "ADD"},
+        {"name": "harvest_speed",   "value":  0.0, "op": "MUL2"},
+        {"name": "melee_damage",    "value":  0.0, "op": "MUL2"},
+        {"name": "magic_damage",    "value":  0.0, "op": "MUL2"},
+        {"name": "attack_speed",    "value":  0.0, "op": "ADD"},
+        {"name": "ranged_damage",   "value":  0.0, "op": "MUL2"},
+        {"name": "ranged_speed",    "value":  0.1, "op": "MUL2"},
+        {"name": "rarity",          "value":    0}
+    ],
+    "crafting_items": {
+        "normal": {
+            "tag": "forge:rods/wooden"
+        }
+    },
+    "name": {
+        "translate": "part.silentgear.rod.wood"
+    },
+    "textures": {
+        "all": {
+            "lite_texture": "low_contrast",
+            "texture_domain": "silentgear",
+            "texture_suffix": "wood",
+            "normal_color": "white",
+            "fallback_color": "#896727"
+        }
+    },
+    "availability": {
+        "tier": 0,
+        "gear_blacklist": []
+    }
+}

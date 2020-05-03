@@ -1,0 +1,37 @@
+{
+    "type": "silentgear:tip",
+    "stats": [
+        {"name": "durability",      "value":    0, "op": "ADD"},
+        {"name": "enchantability",  "value":  0.6, "op": "MUL2"},
+        {"name": "harvest_level",   "value":    0, "op": "MAX"},
+        {"name": "harvest_speed",   "value": -0.1, "op": "MUL2"},
+        {"name": "melee_damage",    "value":  0.0, "op": "ADD"},
+        {"name": "magic_damage",    "value":  2.0, "op": "ADD"},
+        {"name": "attack_speed",    "value":  0.3, "op": "ADD"},
+        {"name": "ranged_damage",   "value":  0.0, "op": "ADD"},
+        {"name": "ranged_speed",    "value":  0.0, "op": "ADD"},
+        {"name": "rarity",          "value":   10}
+    ],
+    "traits": [
+        {"name": "silentgear:holy", "level": 4}
+    ],
+    "crafting_items": {
+        "normal": {
+            "item": "silentgear:lapis_coated_upgrade"
+        }
+    },
+    "name": {
+        "translate": "part.silentgear.tip.lapis"
+    },
+    "textures": {
+        "all": {
+            "lite_texture": "high_contrast",
+            "texture_suffix": "lapis",
+            "normal_color": "white",
+            "fallback_color": "#224BAF"
+        }
+    },
+    "availability": {
+        "gear_blacklist": []
+    }
+}

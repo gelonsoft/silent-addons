@@ -1,0 +1,16 @@
+{
+    "type": "silentgear:gear_crafting",
+    "group": "silentgear:shovels",
+    "ingredients": [
+        {
+            "tag": "silentgear:blueprints/shovel"
+        },
+        {
+            "type": "silentgear:part_type",
+            "part_type": "main"
+        }
+    ],
+    "result": {
+        "item": "silentgear:shovel"
+    }
+}

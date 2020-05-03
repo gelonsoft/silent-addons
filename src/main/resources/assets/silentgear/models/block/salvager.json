@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "silentgear:block/salvager_side",
+    "down": "silentgear:block/salvager",
+    "up": "silentgear:block/salvager_top",
+    "north": "silentgear:block/salvager_side",
+    "east": "silentgear:block/salvager_side",
+    "south": "silentgear:block/salvager_side",
+    "west": "silentgear:block/salvager_side"
+  }
+}

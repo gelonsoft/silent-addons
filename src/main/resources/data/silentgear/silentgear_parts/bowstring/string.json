@@ -1,0 +1,37 @@
+{
+    "type": "silentgear:bowstring",
+    "stats": [
+        {"name": "durability",      "value":  0.0, "op": "MUL1"},
+        {"name": "enchantability",  "value":  0.0, "op": "MUL1"},
+        {"name": "ranged_damage",   "value":  0.0, "op": "MUL1"},
+        {"name": "ranged_speed",    "value":  0.1, "op": "MUL1"},
+        {"name": "rarity",          "value":    5}
+    ],
+    "traits": [
+        {"name": "silentgear:organic", "level": 2}
+    ],
+    "crafting_items": {
+        "normal": {
+            "tag": "silentgear:bowstrings/plain"
+        },
+        "small": {
+            "tag": "forge:string/string",
+            "size": 3
+        }
+    },
+    "name": {
+        "translate": "part.silentgear.bowstring.string"
+    },
+    "textures": {
+        "all": {
+            "lite_texture": "low_contrast",
+            "texture_domain": "silentgear",
+            "texture_suffix": "string",
+            "normal_color": "white"
+        }
+    },
+    "availability": {
+        "tier": 1,
+        "gear_blacklist": []
+    }
+}

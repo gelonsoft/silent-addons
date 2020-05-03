@@ -1,0 +1,40 @@
+{
+    "type": "silentgear:rod",
+    "stats": [
+        {"name": "durability",      "value":  0.5, "op": "MUL2"},
+        {"name": "enchantability",  "value":  0.2, "op": "MUL2"},
+        {"name": "harvest_level",   "value":    1, "op": "ADD"},
+        {"name": "harvest_speed",   "value":  0.4, "op": "MUL2"},
+        {"name": "melee_damage",    "value":  0.2, "op": "MUL2"},
+        {"name": "magic_damage",    "value":  0.2, "op": "MUL2"},
+        {"name": "attack_speed",    "value":  0.2, "op": "ADD"},
+        {"name": "ranged_damage",   "value":  0.2, "op": "MUL2"},
+        {"name": "ranged_speed",    "value":  0.2, "op": "MUL2"},
+        {"name": "rarity",          "value":   40}
+    ],
+    "traits": [
+        {"name": "silentgear:lustrous", "level": 3},
+        {"name": "silentgear:ancient", "level": 2}
+    ],
+    "crafting_items": {
+        "normal": {
+            "item": "minecraft:end_rod"
+        }
+    },
+    "name": {
+        "translate": "part.silentgear.rod.end"
+    },
+    "textures": {
+        "all": {
+            "lite_texture": "high_contrast",
+            "texture_domain": "silentgear",
+            "texture_suffix": "end",
+            "normal_color": "white",
+            "fallback_color": "#F6EACD"
+        }
+    },
+    "availability": {
+        "tier": 3,
+        "gear_blacklist": []
+    }
+}
