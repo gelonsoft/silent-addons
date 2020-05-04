@@ -1,0 +1,44 @@
+{
+    "type": "silentgear:gear_crafting",
+    "group": "silentgear:hammers",
+    "ingredients": [
+        {
+            "tag": "silentaddons:blueprints/megahammer"
+        },
+        {
+            "type": "silentgear:part_type",
+            "part_type": "main"
+        },
+        {
+            "type": "silentgear:part_type",
+            "part_type": "main"
+        },
+        {
+            "type": "silentgear:part_type",
+            "part_type": "main"
+        },
+        {
+            "type": "silentgear:part_type",
+            "part_type": "main"
+        },
+        {
+            "type": "silentgear:part_type",
+            "part_type": "main"
+        },
+        {
+            "type": "silentgear:part_type",
+            "part_type": "main"
+        },
+        {
+            "type": "silentgear:part_type",
+            "part_type": "main"
+        },
+        {
+            "type": "silentgear:part_type",
+            "part_type": "rod"
+        }
+    ],
+    "result": {
+        "item": "silentaddons:megahammer"
+    }
+}

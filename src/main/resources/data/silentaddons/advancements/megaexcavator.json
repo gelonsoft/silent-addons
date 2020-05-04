@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "silentaddons:megaexcavator"
+        },
+        "title": {
+            "translate": "advancements.silentaddons.megaexcavator.title"
+        },
+        "description": {
+            "translate": "advancements.silentaddons.megaexcavator.description"
+        }
+    },
+    "parent": "silentgear:excavator",
+    "criteria": {
+        "get_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "silentaddons:megaexcavator"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,33 +1,39 @@
 modLoader="javafml"
 loaderVersion="[28,)"
-issueTrackerURL="https://github.com/SilentChaos512/Silent-Gear/issues"
+issueTrackerURL="https://github.com/gelonsoft/silent-addons/issues"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/silent-gear"
 logoFile="logo.png"
-#credits="Thanks for this example mod goes to Java"
-authors="SilentChaos512"
+credits="Thanks for this mod goes to SilentChaos512"
+authors="gelonsoft"
 
 [[mods]]
-    modId="silentgear"
+    modId="silentaddons"
     version="${file.jarVersion}"
-    displayName="Silent Gear"
-    updateJSONURL="https://raw.githubusercontent.com/SilentChaos512/Silent-Gear/1.14/update.json"
+    displayName="Silent Addons"
+    updateJSONURL="https://raw.githubusercontent.com/gelonsoft/silent-addons/master/update.json"
     description='''
-    Modular and upgradeable tools, weapons, and armor. Allows full customization of parts used in gear crafting, even user-defined parts!
+    Modular and upgradeable tools. Allows full customization of parts used in gear crafting, even user-defined parts!
     '''
 
-[[dependencies.silentgear]]
+[[dependencies.silentaddons]]
     modId="forge"
     mandatory=true
     versionRange="[28.1,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.silentgear]]
+[[dependencies.silentaddons]]
+    modId="silentgear"
+    mandatory=true
+    versionRange="[1.4.6,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.silentaddons]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.14.4]"
     ordering="NONE"
     side="BOTH"
-[[dependencies.silentgear]]
+[[dependencies.silentaddons]]
     modId="silentlib"
     mandatory=true
     versionRange="[4.4,)"

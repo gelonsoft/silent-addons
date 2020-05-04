@@ -1,0 +1,40 @@
+{
+    "type": "silentgear:gear_crafting",
+    "group": "silentgear:excavators",
+    "ingredients": [
+        {
+            "tag": "silentaddons:blueprints/megaexcavator"
+        },
+        {
+            "type": "silentgear:part_type",
+            "part_type": "main"
+        },
+        {
+            "type": "silentgear:part_type",
+            "part_type": "main"
+        },
+        {
+            "type": "silentgear:part_type",
+            "part_type": "main"
+        },
+        {
+            "type": "silentgear:part_type",
+            "part_type": "main"
+        },
+        {
+            "type": "silentgear:part_type",
+            "part_type": "main"
+        },
+        {
+            "type": "silentgear:part_type",
+            "part_type": "main"
+        },
+        {
+            "type": "silentgear:part_type",
+            "part_type": "main"
+        }
+    ],
+    "result": {
+        "item": "silentaddons:megaexcavator"
+    }
+}

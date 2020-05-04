@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#silentaddons:blueprints/megaexcavator",
+    "#silentaddons:blueprints/megahammer"
+  ]
+}

@@ -1,6 +1,0 @@
-{
-  "parent": "block/torch_wall",
-  "textures": {
-    "torch": "silentgear:block/stone_torch"
-  }
-}

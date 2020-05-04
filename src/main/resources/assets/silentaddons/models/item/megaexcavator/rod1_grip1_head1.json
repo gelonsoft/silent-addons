@@ -1,0 +1,9 @@
+{
+  "__comment__": "Lite gear model",
+  "parent": "silentaddons:item/megaexcavator",
+  "textures": {
+    "layer0": "silentaddons:item/megaexcavator/rod_generic_lc",
+    "layer1": "silentaddons:item/megaexcavator/grip_wool",
+    "layer2": "silentaddons:item/megaexcavator/head_generic_lc"
+  }
+}

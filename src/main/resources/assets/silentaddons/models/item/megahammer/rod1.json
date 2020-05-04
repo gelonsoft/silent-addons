@@ -1,0 +1,7 @@
+{
+  "__comment__": "Lite gear model",
+  "parent": "silentaddons:item/megahammer",
+  "textures": {
+    "layer0": "silentaddons:item/megahammer/rod_generic_lc"
+  }
+}

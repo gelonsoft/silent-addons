@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "silentaddons:megahammer"
+        },
+        "title": {
+            "translate": "advancements.silentaddons.megahammer.title"
+        },
+        "description": {
+            "translate": "advancements.silentaddons.megahammer.description"
+        }
+    },
+    "parent": "silentgear:hammer",
+    "criteria": {
+        "get_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "silentaddons:megahammer"
+                    }
+                ]
+            }
+        }
+    }
+}

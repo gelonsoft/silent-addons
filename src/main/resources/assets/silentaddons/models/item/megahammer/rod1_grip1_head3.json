@@ -1,0 +1,10 @@
+{
+  "__comment__": "Lite gear model",
+  "parent": "silentaddons:item/megahammer",
+  "textures": {
+    "layer0": "silentaddons:item/megahammer/rod_generic_lc",
+    "layer1": "silentaddons:item/megahammer/grip_wool",
+    "layer2": "silentaddons:item/megahammer/head_generic_hc",
+    "layer3": "silentaddons:item/megahammer/_highlight"
+  }
+}

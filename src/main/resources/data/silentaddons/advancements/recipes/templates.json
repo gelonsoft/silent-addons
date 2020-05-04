@@ -1,0 +1,26 @@
+{
+  "parent": "silentgear:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silentaddons:blueprints/template_megaexcavator",
+      "silentaddons:blueprints/template_megahammer"
+    ]
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

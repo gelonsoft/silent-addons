@@ -1,0 +1,11 @@
+{
+  "__comment__": "Lite gear model",
+  "parent": "silentaddons:item/megaexcavator",
+  "textures": {
+    "layer0": "silentaddons:item/blank",
+    "layer1": "silentaddons:item/blank",
+    "layer2": "silentaddons:item/megaexcavator/head_generic_hc",
+    "layer3": "silentaddons:item/megaexcavator/tip_iron",
+    "layer4": "silentaddons:item/megaexcavator/_highlight"
+  }
+}

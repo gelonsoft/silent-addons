@@ -1,0 +1,26 @@
+{
+  "parent": "silentgear:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silentaddons:blueprints/blueprint_megaexcavator",
+      "silentaddons:blueprints/blueprint_megahammer"
+    ]
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "silentgear:blueprint_paper"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

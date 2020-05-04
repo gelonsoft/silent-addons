@@ -129,6 +129,14 @@ dependencies {
         exclude module: "forge"
     }
 
+    runtimeOnly("curse.maven:silents-gear:2849573"){
+        exclude module: "silent-lib-${project.mc_version}"
+    }
+
+    compileOnly("curse.maven:silents-gear:2849573") {
+        exclude module: "silent-lib-${project.mc_version}"
+    }
+
     // JEI
 //    compile 'com.github.mezz:JustEnoughItems:1.13-SNAPSHOT'
     // compile against the JEI API but do not include it at runtime
@@ -155,11 +163,11 @@ jar {
     appendix = "${project.mc_version}"
     manifest {
         attributes(["Specification-Title"     : project.mod_id,
-                    "Specification-Vendor"    : "gelonsoft",
+                    "Specification-Vendor"    : "gelonsoft2",
                     "Specification-Version"   : "1.2",
                     "Implementation-Title"    : project.name,
                     "Implementation-Version"  : "${version}",
-                    "Implementation-Vendor"   : "gelonsoft",
+                    "Implementation-Vendor"   : "gelonsoft2",
                     "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")],)
     }
 }

@@ -1,0 +1,26 @@
+{
+  "parent": "silentgear:recipes/root",
+  "rewards": {
+    "recipes": [
+      "silentaddons:gear/megahammer",
+      "silentaddons:gear/megahammer_head"
+    ]
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "silentaddons:blueprints/megahammer"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

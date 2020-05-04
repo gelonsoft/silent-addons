@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "silentaddons:item/blueprint",
+    "layer1": "silentaddons:item/blueprint_megaexcavator"
+  }
+}
