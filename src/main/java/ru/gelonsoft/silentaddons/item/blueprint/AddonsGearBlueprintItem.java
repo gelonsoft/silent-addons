@@ -36,7 +36,7 @@ public class AddonsGearBlueprintItem extends AddonsAbstractBlueprintItem {
 
         // Flavor text
         if (this.gearItem instanceof ICoreTool) {
-            list.add(new TranslationTextComponent("item.silentaddons.blueprint." + itemClass + ".desc").applyTextStyle(TextFormatting.ITALIC));
+            list.add(new TranslationTextComponent("item.silentaddons.blueprint.mega" + itemClass + ".desc").applyTextStyle(TextFormatting.ITALIC));
         }
 
         // Single use or multiple uses? Or disabled?
